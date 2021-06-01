@@ -75,6 +75,15 @@ for words in inp_string:
         out_string.append(words)
 print(" ".join(sorted(out_string)))
 ```
+
+**WY Solution: Python 3**
+
+```python
+# s=set(map(lambda x:x.upper(),input("Enter:").split(" ")))
+s=map(lambda x:x.upper(),set(input("Enter:").split(" ")))
+print(' '.join(sorted(s)))
+```
+
 ---
 
 # Question 11
